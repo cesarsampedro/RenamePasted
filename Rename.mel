@@ -1,0 +1,7 @@
+string $selectedObjects[] = `ls -sl`;
+
+for ($object in $selectedObjects)
+{
+        string $newName = `substitute "pasted__" $object ""`;
+        rename $object $newName;
+}
