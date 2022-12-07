@@ -1,2 +1,2 @@
 # RenamePasted
-Mel script that removes the word Pasted__ from selected objects.
+Mel script for Maya that removes the word "pasted__" from selected objects.
